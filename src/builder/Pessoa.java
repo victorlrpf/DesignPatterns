@@ -1,5 +1,7 @@
 package builder;
 
+import java.time.LocalDate;
+
 public class Pessoa {
 
     private String nome;
@@ -10,11 +12,11 @@ public class Pessoa {
 
     private String apelido;
 
-    private String dataNascimento;
+    private LocalDate dataNascimento;
 
     // Constructor
 
-    public Pessoa(String nome, String sobreNome, String email, String apelido, String dataNascimento) {
+    public Pessoa(String nome, String sobreNome, String email, String apelido, LocalDate dataNascimento) {
         this.nome = nome;
         this.sobreNome = sobreNome;
         this.email = email;
@@ -56,11 +58,11 @@ public class Pessoa {
         this.apelido = apelido;
     }
 
-    public String getDataNascimento() {
+    public LocalDate getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(String dataNascimento) {
+    public void setDataNascimento(LocalDate dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 
