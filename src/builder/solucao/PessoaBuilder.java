@@ -1,5 +1,7 @@
 package builder.solucao;
 
+import builder.Pessoa;
+
 import java.time.LocalDate;
 
 public class PessoaBuilder {
@@ -37,5 +39,9 @@ public class PessoaBuilder {
     public PessoaBuilder dataNascimento(LocalDate dataNascimento) {
         this.dataNascimento = dataNascimento;
         return this;
+    }
+
+    public Pessoa criaPessoa() {
+        return new Pessoa(nome, sobreNome, email, apelido, dataNascimento);
     }
 }

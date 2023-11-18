@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561b9dd6-e714-4a11-830e-5ce25d7a7fef" name="Changes" comment="Meu primeiro commit do curso">
-      <change afterPath="$PROJECT_DIR$/src/builder/solucao/PessoaBuilder.java" afterDir="false" />
+    <list default="true" id="561b9dd6-e714-4a11-830e-5ce25d7a7fef" name="Changes" comment="Meu segundo commit do curso">
+      <change afterPath="$PROJECT_DIR$/src/builder/solucao/TestePessoaComBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder/problema/TestePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder/problema/TestePessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/builder/solucao/PessoaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder/solucao/PessoaBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TestePessoaComBuilder">
     <configuration name="TestePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder.problema.TestePessoa" />
       <module name="DesignPatterns" />
@@ -60,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestePessoaComBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="builder.solucao.TestePessoaComBuilder" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="builder.solucao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestePessoaComBuilder" />
         <item itemvalue="Application.TestePessoa" />
       </list>
     </recent_temporary>
@@ -82,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700264398960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Meu segundo commit do curso">
+      <created>1700265168328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700265168328</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Meu primeiro commit do curso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Meu primeiro commit do curso" />
+    <MESSAGE value="Meu segundo commit do curso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meu segundo commit do curso" />
   </component>
 </project>
