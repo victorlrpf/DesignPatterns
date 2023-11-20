@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561b9dd6-e714-4a11-830e-5ce25d7a7fef" name="Changes" comment="Resolvendo com o FactoryMethods">
-      <change afterPath="$PROJECT_DIR$/src/factorymethods/solucao/TesteProdutoComFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/problema/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/problema/TesteAgenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/solucao/AgendaSingletonEAGER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/solucao/AgendaSingletonENUM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/solucao/AgendaSingletonLAZY.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/solucao/TesteAgendaComSingleton.java" afterDir="false" />
+    <list default="true" id="561b9dd6-e714-4a11-830e-5ce25d7a7fef" name="Changes" comment="Constuindo o prototpe">
+      <change afterPath="$PROJECT_DIR$/src/prototype/Botao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/TipoBordaEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/problema/BotaoAzul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/problema/BotaoVerde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/problema/BotaoVermelho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/solucao/BotaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/solucao/BotaoRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/solucao/TesteBotaoPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/PessoaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/PessoaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethods/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factorymethods/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/factorymethods/TipoProdutoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/factorymethods/TipoProdutoEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +66,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="prototype.solucao" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="singleton.solucao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteAgendaComSingleton">
+  <component name="RunManager" selected="Application.TesteBotaoPrototype">
     <configuration name="TesteAgenda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.problema.TesteAgenda" />
       <module name="DesignPatterns" />
@@ -89,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="singleton.solucao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteBotaoPrototype" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prototype.solucao.TesteBotaoPrototype" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prototype.solucao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteBotaoPrototype" />
         <item itemvalue="Application.TesteAgendaComSingleton" />
         <item itemvalue="Application.TesteAgenda" />
         <item itemvalue="Application.TestePessoaComBuilder" />
@@ -168,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700359593841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Constuindo com a estrutura Singleton">
+      <created>1700447080979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700447080979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +212,8 @@
     <MESSAGE value="Meu segundo commit do curso" />
     <MESSAGE value="Resolvendo o problema de não saber onde estava sendo colocado os dados e quais" />
     <MESSAGE value="Resolvendo com o FactoryMethods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolvendo com o FactoryMethods" />
+    <MESSAGE value="Constuindo com a estrutura Singleton" />
+    <MESSAGE value="Constuindo as pastas para a prototpe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constuindo as pastas para a prototpe" />
   </component>
 </project>
