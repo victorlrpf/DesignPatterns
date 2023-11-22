@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="561b9dd6-e714-4a11-830e-5ce25d7a7fef" name="Changes" comment="Constuindo o prototpe e começando o proxy">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proxy/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proxy/PessoaRepository.java" afterDir="false" />
+    <list default="true" id="561b9dd6-e714-4a11-830e-5ce25d7a7fef" name="Changes" comment="Criando o conteudo da classe de pessoa repository, para simular um bd">
+      <change beforePath="$PROJECT_DIR$/src/proxy/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/proxy/PessoaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700514705262</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Criando o conteudo da classe de pessoa repository, para simular um bd">
+      <created>1700690516687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700690516687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +219,8 @@
     <MESSAGE value="Constuindo com a estrutura Singleton" />
     <MESSAGE value="Constuindo as pastas para a prototpe" />
     <MESSAGE value="Constuindo o prototpe e começando o proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constuindo o prototpe e começando o proxy" />
+    <MESSAGE value="Criando o conteudo da classe de pessoa service, para simular um bd" />
+    <MESSAGE value="Criando o conteudo da classe de pessoa repository, para simular um bd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando o conteudo da classe de pessoa repository, para simular um bd" />
   </component>
 </project>
